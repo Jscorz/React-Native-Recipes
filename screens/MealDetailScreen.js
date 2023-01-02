@@ -5,7 +5,7 @@ import { MEALS } from "../data/dummy-data";
 function MealDetailScreen({ route }) {
 	const mealId = route.params.mealId;
 
-	const selectedMeal = MEALS.find((meal) => meal.id === mealI
+	const selectedMeal = MEALS.find((meal) => meal.id === mealId
     );
 
 	return (
